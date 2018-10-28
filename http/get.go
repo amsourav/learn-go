@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-func main() {
+func MakeApiCall() {
 	resp, err := http.Get("https://google.com")
 
 	if err != nil {
